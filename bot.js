@@ -10,9 +10,9 @@ let interval = null;
 let eating = false;
 let eatingslot;
 let options = {
-	host: config.server.address,
-	port: config.server.port,
-	username: config.user.username,
+	host: ZITONACRAFT.aternos.me:41870,
+	port: 41870,
+	username: BOT,
 	password: (process.argv[2] ? process.argv[2] : config.user.pass)
 }
 
